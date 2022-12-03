@@ -1,0 +1,120 @@
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/nv1 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Normal:  0.4719204
+Robbery:  0.39705187
+Shooting:  0.05869047
+Explosion:  0.04696953
+Fighting:  0.020269489
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/Normal_Videos_247 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Normal:  0.51165557
+Robbery:  0.38117394
+Shooting:  0.0799046
+Fighting:  0.013382612
+Explosion:  0.011391056
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/Normal_Videos_310 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Fighting:  0.7938824
+Normal:  0.2012172
+Shooting:  0.0033093009
+RoadAccidents:  0.0006893447
+Explosion:  0.00064053014
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/Fighting049 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Shooting:  0.36977774
+Normal:  0.2802807
+Fighting:  0.14295499
+Explosion:  0.10756092
+Robbery:  0.08960497
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/Explosion045 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Explosion:  0.69194543
+RoadAccidents:  0.13795897
+Shooting:  0.12125666
+Normal:  0.021815263
+Fighting:  0.019842727
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/Explosion002 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Explosion:  0.9993037
+Robbery:  0.00021926439
+Fighting:  0.00018172197
+RoadAccidents:  0.00013519905
+Shooting:  0.00010319378
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/Explosion042 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Explosion:  0.9999963
+RoadAccidents:  2.737917e-06
+Robbery:  4.0926062e-07
+Fighting:  3.7689156e-07
+Normal:  1.8490255e-07
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/RoadAccidents033 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Explosion:  0.88371843
+RoadAccidents:  0.11250844
+Fighting:  0.0017113341
+Normal:  0.0012649551
+Robbery:  0.000561545
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/RoadAccidents035 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Shooting:  0.29385513
+Normal:  0.22110222
+Fighting:  0.1863442
+RoadAccidents:  0.17429055
+Explosion:  0.097256936
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth data/Fighting051 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+Fighting:  0.8576095
+Robbery:  0.09698753
+Shooting:  0.034594633
+Normal:  0.00418974
+Explosion:  0.0035709492
+
+(mmcv) D:\DeepSPIT\MajorProject\mmaction2>python demo/demo.py configs/recognition/slowfast/slowfast_r50_16x8x1_22e_sthv1_rgb.py data/epoch_25.pth D:/DeepSPIT/MajorProject/selectedframesNewNew/test/Shooting032 data/labels.txt --use-frames
+D:\Anaconda\envs\mmcv\lib\site-packages\mmcv\_init_.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+load checkpoint from local path: data/epoch_25.pth
+The top-5 labels with corresponding scores are:
+RoadAccidents:  0.4384712
+Normal:  0.3372218
+Explosion:  0.12474804
+Shooting:  0.039390434
+Fighting:  0.03437371
