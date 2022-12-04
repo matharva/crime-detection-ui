@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import CrimeSummaryTable from "./CrimeSummaryTable";
 
 import DATA, { TIMEOUT } from "./data";
@@ -10,6 +11,13 @@ const CrimeDetectionSection = ({
   isFileUploaded,
   setIsFileUploaded,
 }) => {
+  const [video, setVideo] = useState(
+    DATA.filter((x) => x.crime === currentCrime)[0].video
+  );
+  useEffect(() => {
+    setVideo(DATA.filter((x) => x.crime === currentCrime)[0].video);
+    console.log(DATA.filter((x) => x.crime === currentCrime)[0].video);
+  }, [currentCrime]);
   return (
     <div
       className="card credit-card-widget"
@@ -20,11 +28,15 @@ const CrimeDetectionSection = ({
         <div className="p-4 border border-white rounded primary-gradient-card">
           <div className="">
             {isDetectionComplete || isFileUploaded ? (
-              <video loop autoPlay controls height={"100%"} width={"100%"}>
-                <source
-                  src={DATA.filter((x) => x.crime === currentCrime)[0].video}
-                  type="video/mp4"
-                ></source>
+              <video
+                loop
+                autoPlay
+                controls
+                height={"100%"}
+                width={"100%"}
+                key={video}
+              >
+                <source src={video} type="video/mp4"></source>
               </video>
             ) : (
               <div>Waiting for new video</div>

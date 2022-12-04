@@ -23,8 +23,8 @@ const FaceDetectionGallery = ({ currentCrime, isDetectionComplete }) => {
                 return (
                   <Link key={index}>
                     <Image
-                      //   src={data.url}
-                      src={shap2}
+                      src={data}
+                      // src={shap2}
                       className="img-fluid bg-soft-info rounded"
                       alt="profile-image"
                     />

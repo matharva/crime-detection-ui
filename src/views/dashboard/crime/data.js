@@ -1,43 +1,43 @@
 // Assets
-import normal_video from "./assets/fighting/Fighting.mp4";
-import normal1 from "./assets/fighting/1.jpg";
-import normal2 from "./assets/fighting/3.jpg";
-import normal3 from "./assets/fighting/4.jpg";
-import normal4 from "./assets/fighting/2.jpg";
-import normal5 from "./assets/fighting/5.jpg";
-import normal6 from "./assets/fighting/6.jpg";
-import normal7 from "./assets/fighting/7.jpg";
-import normal8 from "./assets/fighting/8.jpg";
+import normal_video from "./assets/normal/Normal.mp4";
+import normal1 from "./assets/normal/1.jpg";
+import normal2 from "./assets/normal/3.jpg";
+import normal3 from "./assets/normal/4.jpg";
+import normal4 from "./assets/normal/2.jpg";
+import normal5 from "./assets/normal/5.jpg";
+import normal6 from "./assets/normal/6.jpg";
+import normal7 from "./assets/normal/7.jpg";
+import normal8 from "./assets/normal/8.jpg";
 
-import robbery_video from "./assets/fighting/Fighting.mp4";
-import robbery1 from "./assets/fighting/1.jpg";
-import robbery2 from "./assets/fighting/3.jpg";
-import robbery3 from "./assets/fighting/4.jpg";
-import robbery4 from "./assets/fighting/2.jpg";
-import robbery5 from "./assets/fighting/5.jpg";
-import robbery6 from "./assets/fighting/6.jpg";
-import robbery7 from "./assets/fighting/7.jpg";
-import robbery8 from "./assets/fighting/8.jpg";
+import robbery_video from "./assets/robbery/Robbery.mp4";
+import robbery1 from "./assets/robbery/1.jpg";
+import robbery2 from "./assets/robbery/3.jpg";
+import robbery3 from "./assets/robbery/4.jpg";
+import robbery4 from "./assets/robbery/2.jpg";
+import robbery5 from "./assets/robbery/5.jpg";
+import robbery6 from "./assets/robbery/6.jpg";
+import robbery7 from "./assets/robbery/7.jpg";
+import robbery8 from "./assets/robbery/8.jpg";
 
-import accident_video from "./assets/fighting/Fighting.mp4";
-import accident1 from "./assets/fighting/1.jpg";
-import accident2 from "./assets/fighting/3.jpg";
-import accident3 from "./assets/fighting/4.jpg";
-import accident4 from "./assets/fighting/2.jpg";
-import accident5 from "./assets/fighting/5.jpg";
-import accident6 from "./assets/fighting/6.jpg";
-import accident7 from "./assets/fighting/7.jpg";
-import accident8 from "./assets/fighting/8.jpg";
+import accident_video from "./assets/accident/RoadAccidents.mp4";
+import accident1 from "./assets/accident/1.jpg";
+import accident2 from "./assets/accident/3.jpg";
+import accident3 from "./assets/accident/4.jpg";
+import accident4 from "./assets/accident/2.jpg";
+import accident5 from "./assets/accident/5.jpg";
+import accident6 from "./assets/accident/6.jpg";
+import accident7 from "./assets/accident/7.jpg";
+import accident8 from "./assets/accident/8.jpg";
 
-import explosion_video from "./assets/fighting/Fighting.mp4";
-import explosion1 from "./assets/fighting/1.jpg";
-import explosion2 from "./assets/fighting/3.jpg";
-import explosion3 from "./assets/fighting/4.jpg";
-import explosion4 from "./assets/fighting/2.jpg";
-import explosion5 from "./assets/fighting/5.jpg";
-import explosion6 from "./assets/fighting/6.jpg";
-import explosion7 from "./assets/fighting/7.jpg";
-import explosion8 from "./assets/fighting/8.jpg";
+import explosion_video from "./assets/explosion/Explosion.mp4";
+import explosion1 from "./assets/explosion/1.jpg";
+import explosion2 from "./assets/explosion/3.jpg";
+import explosion3 from "./assets/explosion/4.jpg";
+import explosion4 from "./assets/explosion/2.jpg";
+import explosion5 from "./assets/explosion/5.jpg";
+import explosion6 from "./assets/explosion/6.jpg";
+import explosion7 from "./assets/explosion/7.jpg";
+import explosion8 from "./assets/explosion/8.jpg";
 
 import fighting_video from "./assets/fighting/Fighting.mp4";
 import fighting1 from "./assets/fighting/1.jpg";
@@ -48,16 +48,22 @@ import fighting5 from "./assets/fighting/5.jpg";
 import fighting6 from "./assets/fighting/6.jpg";
 import fighting7 from "./assets/fighting/7.jpg";
 import fighting8 from "./assets/fighting/8.jpg";
+import fightingface1 from "./assets/fighting/faces/1.jpg";
+import fightingface2 from "./assets/fighting/faces/2.jpg";
+import fightingface3 from "./assets/fighting/faces/3.jpg";
 
-import shooting_video from "./assets/fighting/Fighting.mp4";
-import shooting1 from "./assets/fighting/1.jpg";
-import shooting2 from "./assets/fighting/3.jpg";
-import shooting3 from "./assets/fighting/4.jpg";
-import shooting4 from "./assets/fighting/2.jpg";
-import shooting5 from "./assets/fighting/5.jpg";
-import shooting6 from "./assets/fighting/6.jpg";
-import shooting7 from "./assets/fighting/7.jpg";
-import shooting8 from "./assets/fighting/8.jpg";
+import shooting_video from "./assets/shooting/Shooting.mp4";
+import shooting1 from "./assets/shooting/1.jpg";
+import shooting2 from "./assets/shooting/3.jpg";
+import shooting3 from "./assets/shooting/4.jpg";
+import shooting4 from "./assets/shooting/2.jpg";
+import shooting5 from "./assets/shooting/5.jpg";
+import shooting6 from "./assets/shooting/6.jpg";
+import shooting7 from "./assets/shooting/7.jpg";
+import shooting8 from "./assets/shooting/8.jpg";
+import shootingface1 from "./assets/shooting/faces/1.jpg";
+import shootingface2 from "./assets/shooting/faces/2.jpg";
+import shootingface3 from "./assets/shooting/faces/3.jpg";
 
 const DATA = [
   {
@@ -171,7 +177,7 @@ const DATA = [
       fighting7,
       fighting8,
     ],
-    faces: [],
+    faces: [fightingface1, fightingface2, fightingface3],
     stats: {
       Fighting: 86,
       Shooting: 4,
@@ -196,7 +202,7 @@ const DATA = [
       shooting7,
       shooting8,
     ],
-    faces: [],
+    faces: [shootingface1, shootingface2, shootingface3],
     stats: {
       Fighting: 0,
       Shooting: 0,
