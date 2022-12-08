@@ -16,9 +16,11 @@
     "apexcharts": "^3.27.3",
     "axios": "^1.2.1",
     "bootstrap": "^5.1.0",
+    "concurrently": "^7.6.0",
     "fullcalendar-interaction": "^5.3.3",
     "jquery": "^3.6.0",
     "leaflet": "^1.7.1",
+    "nodemon": "^2.0.20",
     "nouislider-react": "^3.4.0",
     "prismjs": "^1.24.1",
     "react": "^17.0.2",
@@ -45,9 +47,11 @@
   },
   "scripts": {
     "start": "set PORT=3006 && react-scripts start",
+    "server": "cd node-twilio-message/ && nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run server\""
   },
   "eslintConfig": {
     "extends": [

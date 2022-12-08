@@ -94,15 +94,15 @@ const CrimeDetectionSection = ({
                   console.log("Timeout for completion true");
                   setIsDetectionComplete(true);
 
-                  // axios
-                  //   .get(`http://localhost:5000/?crime=${currentCrime}`)
-                  //   .then((response) => {
-                  //     // Handle the response here
-                  //     console.log("Notification Sent!");
-                  //   })
-                  //   .catch((error) => {
-                  //     // Handle any errors here
-                  //   });
+                  axios
+                    .get(`http://localhost:5000/message?crime=${currentCrime}`)
+                    .then((response) => {
+                      // Handle the response here
+                      console.log("Notification Sent!");
+                    })
+                    .catch((error) => {
+                      // Handle any errors here
+                    });
                 }, TIMEOUT);
               }}
             />
