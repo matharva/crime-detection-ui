@@ -13,7 +13,7 @@ const FaceDetectionGallery = ({ currentCrime, isDetectionComplete }) => {
         <div className="header-title">
           <h4 className="card-title">Face Detection gallery</h4>
         </div>
-        <span>2 faces</span>
+        {/* <span>2 faces</span> */}
       </Card.Header>
       <Card.Body>
         <div className="d-grid gap-card grid-cols-3">

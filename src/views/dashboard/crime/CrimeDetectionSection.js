@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import CrimeSummaryTable from "./CrimeSummaryTable";
+import axios from "axios";
 
 import DATA, { TIMEOUT } from "./data";
 
 const CrimeDetectionSection = ({
   currentCrime,
+  setCurrentCrime,
   isDetectionComplete,
   setIsDetectionComplete,
   isFileUploaded,
@@ -16,7 +18,7 @@ const CrimeDetectionSection = ({
   );
   useEffect(() => {
     setVideo(DATA.filter((x) => x.crime === currentCrime)[0].video);
-    console.log(DATA.filter((x) => x.crime === currentCrime)[0].video);
+    // console.log(DATA.filter((x) => x.crime === currentCrime)[0].video);
   }, [currentCrime]);
   return (
     <div
@@ -32,6 +34,7 @@ const CrimeDetectionSection = ({
                 loop
                 autoPlay
                 controls
+                muted
                 height={"100%"}
                 width={"100%"}
                 key={video}
@@ -82,11 +85,24 @@ const CrimeDetectionSection = ({
             <input
               style={{ position: "absolute", right: 0, zIndex: 90 }}
               type="file"
-              onChange={() => {
+              onChange={(e) => {
                 setIsFileUploaded(true);
+                console.log("File name: ", e.target.files[0].name);
+                setCurrentCrime(e.target.files[0].name.split(".")[0]);
+
                 setTimeout(() => {
                   console.log("Timeout for completion true");
                   setIsDetectionComplete(true);
+
+                  // axios
+                  //   .get(`http://localhost:5000/?crime=${currentCrime}`)
+                  //   .then((response) => {
+                  //     // Handle the response here
+                  //     console.log("Notification Sent!");
+                  //   })
+                  //   .catch((error) => {
+                  //     // Handle any errors here
+                  //   });
                 }, TIMEOUT);
               }}
             />

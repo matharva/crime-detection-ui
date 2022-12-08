@@ -41,7 +41,7 @@ const CrimeSummaryTable = ({ currentCrime, isDetectionComplete }) => {
     }))
     .sort((a, b) => b.value - a.value);
 
-  console.log(result);
+  // console.log(result);
 
   const dummyValues = [
     { name: "Normal", value: 0 },
@@ -74,6 +74,7 @@ const CrimeSummaryTable = ({ currentCrime, isDetectionComplete }) => {
             <tbody>
               {isDetectionComplete
                 ? result.map((data, index) => {
+                    if (index > 4) return;
                     return (
                       <CrimeTableRow
                         data={data}

@@ -12,7 +12,7 @@ const KeyframesGallery = ({ isDetectionComplete, currentCrime }) => {
         <div className="header-title">
           <h4 className="card-title">Keyframe preview gallery</h4>
         </div>
-        <span>9 frames</span>
+        {/* <span>9 frames</span> */}
       </Card.Header>
       <Card.Body>
         <div className="d-grid gap-card grid-cols-4">

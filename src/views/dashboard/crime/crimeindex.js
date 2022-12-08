@@ -141,11 +141,11 @@ const CrimeIndex = (props) => {
 
   return (
     <>
-      <TabSwiper
+      {/* <TabSwiper
         props={props}
         setCurrentCrime={setCurrentCrime}
         currentCrime={currentCrime}
-      />
+      /> */}
       <Row>
         <Col md="7" lg="7">
           <CrimeDetectionSection
@@ -154,6 +154,7 @@ const CrimeIndex = (props) => {
             setIsDetectionComplete={setIsDetectionComplete}
             isFileUploaded={isFileUploaded}
             setIsFileUploaded={setIsFileUploaded}
+            setCurrentCrime={setCurrentCrime}
           />
         </Col>
         <Col md="5" lg="5">
@@ -167,7 +168,10 @@ const CrimeIndex = (props) => {
             currentCrime={currentCrime}
             setIsDetectionComplete={setIsDetectionComplete}
           />
-          {/* <ActivityOverview isDetectionComplete={isDetectionComplete} /> */}
+          <ActivityOverview
+            isDetectionComplete={isDetectionComplete}
+            setCurrentCrime={setCurrentCrime}
+          />
         </Col>
       </Row>
     </>

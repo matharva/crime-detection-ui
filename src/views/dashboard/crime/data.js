@@ -105,11 +105,11 @@ const DATA = [
     ],
     faces: [],
     stats: {
-      Fighting: 0,
-      Shooting: 0,
+      Fighting: 7,
+      Shooting: 23,
       "Road Accident": 0,
-      Normal: 0,
-      Robbery: 0,
+      Normal: 2,
+      Robbery: 68,
       Explosion: 0,
     },
 
@@ -130,12 +130,12 @@ const DATA = [
     ],
     faces: [],
     stats: {
-      Fighting: 0,
+      Fighting: 2,
       Shooting: 0,
-      "Road Accident": 0,
-      Normal: 0,
+      "Road Accident": 81,
+      Normal: 10,
       Robbery: 0,
-      Explosion: 0,
+      Explosion: 7,
     },
 
     videoTitle: "",
@@ -204,11 +204,11 @@ const DATA = [
     ],
     faces: [shootingface1, shootingface2, shootingface3],
     stats: {
-      Fighting: 0,
-      Shooting: 0,
+      Fighting: 21,
+      Shooting: 73,
       "Road Accident": 0,
-      Normal: 0,
-      Robbery: 0,
+      Normal: 1,
+      Robbery: 5,
       Explosion: 0,
     },
 

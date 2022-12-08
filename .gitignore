@@ -22,3 +22,5 @@ yarn-debug.log*
 yarn-error.log*
 
 src/views/dashboard/crime/assets
+
+node-twilio-message/node_modules
